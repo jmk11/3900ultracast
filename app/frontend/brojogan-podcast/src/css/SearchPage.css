@@ -1,0 +1,37 @@
+#search-page-div{
+  padding-top: 30px;
+  padding-left: 20px;
+  color: white;
+  z-index: -1;
+  margin-bottom: 200px;
+}
+
+.search-page-link {
+  color: #06C170;
+}
+
+.card-header-div {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card-body {
+  background-color: #2E2B3F;
+}
+
+#episode-list-card {
+  border-top: 1px solid #5799C3;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+#episode-list-link {
+  color: white;
+}
+
+#podcast-card-accordion {
+  margin-top: 20px;
+}
+

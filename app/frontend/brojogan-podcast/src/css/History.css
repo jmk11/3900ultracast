@@ -1,0 +1,56 @@
+.history-cards {
+    display: flex;
+    width: 100%; /* maybe not hardcode */
+    flex-flow: row wrap;
+    padding: 0px;
+}
+
+.history-card {
+    background: #2E2B3F;
+    margin: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.history-card img {
+  position: relative;
+  width: 250px;
+  z-index: 0;
+}
+
+#test {
+  background-color: black;
+  padding: 0px;
+  position: absolute;
+  margin-top: -250px;
+  z-index: 1;
+}
+
+#episode-title-history {
+  margin-top: 2px;
+  font-family: calibri;
+  color: #06C170;
+  font-size: small;
+}
+
+.history-cards .pagination {
+    justify-content: center;
+    /* align-items: center; */
+    flex-basis: 100%; /* to put on new row */
+}
+
+/* .historycard-body {
+    display: flex;
+} */
+
+.history-card .progress {
+  height: 5px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.history-card .progress .progress-bar {
+  background-color: #6E59D6;
+}

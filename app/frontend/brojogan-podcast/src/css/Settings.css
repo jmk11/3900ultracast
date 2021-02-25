@@ -1,0 +1,145 @@
+
+
+.settings-input {
+  padding-left: 10px;
+  font-family: sans-serif;
+  height: 35px;
+  min-width: 200px;
+  width: 20%;
+  background-color: transparent;
+  /* border: none; */
+  border: 1px solid gray;
+  /* border-bottom: 1px solid gray; */
+  border-radius: 10px;
+  font-size: 13px;
+  color: #E1BA8B;
+}
+
+label {
+  display: inline-block;
+  min-width: 200px;
+}
+
+/* https://codepen.io/andybelldesign/pen/Vxpjvo */
+.settings-btn {
+  display: inline-block;
+  border: 1px solid #535353;
+  margin-top: 40px;
+  padding: 6px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #6E59D6;
+  font-weight: bold;
+  font-size: 13px;;
+}
+
+#delete-btn-settings {
+  margin-top: 10px;
+}
+
+.settings-btn:not(:disabled):hover, .settings-btn:not(:disabled):focus {
+  outline: none;
+  background: #bbbbbb;
+  /* outline: 1px solid #fff;
+  outline-offset: -4px; */
+}
+
+.settings-btn:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+
+.delete-btn.delete-btn { /* the double class is only for specificity, there must be a better way */
+  display: inline-block;
+  /* color: darkred; */
+  color: white;
+  transition: none;
+}
+
+.delete-btn.delete-btn:not(:disabled):hover, .delete-btn.delete-btn:not(:disabled):focus {
+  background: darkred;
+  color: white;
+  border-color: #85144b;
+}
+
+.delete-btn:active:not(:disabled) {
+  background: #85144b;
+}
+
+.delete-btn:disabled {
+  /* color: rgba(255, 65, 54, 0.5); */
+  color: rgba(255, 255, 255, 0.3);
+  cursor: default;
+}
+
+.delete-btn:disabled:hover { /* this is an actual state in firefox */
+}
+
+#delete-heading {
+  color: #ff4136;
+}
+
+input.settings {
+  background-color: #e0e0e0;
+  min-width: 200px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.modal-header {
+  background-color: #ff4136;
+}
+
+.modal.modal button {
+  margin: 0 5px;
+}
+
+.settings-error {
+  color: #b10dc9;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#user-icon {
+  background-color: #2E2B3F;
+  border: 1px solid #2E2B3F;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+#account-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.settings-row {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.form-info {
+  font-size: 9px;
+  padding-left: 25px;
+  margin-top: 15px;
+  color: #848a91;
+}
+
+hr {
+  border-top: 2px solid  #2E2B3F;
+}
