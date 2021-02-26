@@ -14,6 +14,8 @@ Backend: Python Flask, with flask-restful and PostgreSQL database
 ## Features
 Search podcasts, view podcast details, play audio podcasts, receive tailored recommendations, edit user settings, subscribe to podcasts and receive notifications, view history, set and view podcast ratings
 
+![Preview GIF](preview.gif "Preview")
+
 ## Frontend Installation
 
   - Install node.
@@ -24,6 +26,7 @@ Search podcasts, view podcast details, play audio podcasts, receive tailored rec
   
     - cd frontend/brojogan-podcast
     - npm start
+    The frontend will be running on localhost:3000
     
 ## Database stuff
 See [app/database/details.md](app/database/README.md)
