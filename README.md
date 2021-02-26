@@ -6,15 +6,15 @@ Group members:
   - Michael Corbin
   - Justin Mack
   - Pawanjot Singh
-  
-## Stack
-Frontend: ReactJS  
-Backend: Python Flask, with flask-restful and PostgreSQL database
 
 ## Features
 Search podcasts, view podcast details, play audio podcasts, receive tailored recommendations, edit user settings, subscribe to podcasts and receive notifications, view history, set and view podcast ratings
 
 ![Preview GIF](preview.gif "Preview")
+  
+## Stack
+Frontend: ReactJS  
+Backend: Python Flask, with flask-restful and PostgreSQL database
 
 ## Frontend Installation
 
