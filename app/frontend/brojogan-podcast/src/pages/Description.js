@@ -346,6 +346,7 @@ function EpisodeDescription({ details: episode, context: { podcast, setPlaying, 
       <div className="play-div">
         <span className="duration">{episode.duration}</span>
         <button className="play" eid={episode.guid} onClick={(event) => {
+          event.stopPropagation();
           setPlaying({
             title: episode.title,
             podcastTitle: podcast.title,
